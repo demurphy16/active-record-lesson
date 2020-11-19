@@ -104,6 +104,13 @@ Teacher.create(name: 'Dr Teach', photo: 'me.jpg')
 
 Sick!
 
+### Updating
+
+Deleting:
+```ruby
+Student.find(7).destroy
+```
+
 > So where would be be using these AR (Active Record) methods?
 
 We are able to use these active record methods in several places across our Rails app. Inside of our `db/seed.rb`, we will want to use the `.create` methods in order to populate our database. 
